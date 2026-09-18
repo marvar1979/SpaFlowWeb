@@ -1,0 +1,12 @@
+{
+  "employees": [
+    {"id":1,"spaBusinessId":1,"branchId":1,"applicationUserId":"u-therapist","fullName":"Profesional Demo","specialty":"Masajes y bienestar","phone":"+591 70000001","email":"terapeuta@spaflow.local","commissionPercent":10,"serviceIds":[1,2,3],"isActive":true},
+    {"id":2,"spaBusinessId":1,"branchId":1,"fullName":"Carla Mendoza","specialty":"Faciales y skincare","phone":"+591 70000003","email":"carla@spaflow.local","commissionPercent":12,"serviceIds":[3],"isActive":true},
+    {"id":3,"spaBusinessId":1,"branchId":1,"fullName":"Lucía Rojas","specialty":"Masoterapia","phone":"+591 70000004","email":"lucia@spaflow.local","commissionPercent":10,"serviceIds":[1,2],"isActive":true}
+  ],
+  "schedules": [
+    {"id":1,"employeeId":1,"dayOfWeek":1,"startTime":"09:00","endTime":"18:00","isDayOff":false},
+    {"id":2,"employeeId":1,"dayOfWeek":2,"startTime":"09:00","endTime":"18:00","isDayOff":false},
+    {"id":3,"employeeId":2,"dayOfWeek":1,"startTime":"10:00","endTime":"19:00","isDayOff":false}
+  ]
+}

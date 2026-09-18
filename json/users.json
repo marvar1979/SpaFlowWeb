@@ -1,0 +1,10 @@
+{
+  "users": [
+    {"id":"u-super","email":"superadmin@spaflow.local","password":"Super123!","fullName":"Super Administrador","roles":["SuperAdmin"],"spaBusinessId":1,"branchId":1,"active":true},
+    {"id":"u-admin","email":"admin@spaflow.local","password":"ChangeMe123!","fullName":"Administrador SpaFlow","roles":["Admin","Manager"],"spaBusinessId":1,"branchId":1,"active":true},
+    {"id":"u-manager","email":"manager@spaflow.local","password":"Manager123!","fullName":"Gerencia SpaFlow","roles":["Manager"],"spaBusinessId":1,"branchId":1,"active":true},
+    {"id":"u-reception","email":"recepcion@spaflow.local","password":"Recep123!","fullName":"Recepción SpaFlow","roles":["Receptionist"],"spaBusinessId":1,"branchId":1,"active":true},
+    {"id":"u-therapist","email":"terapeuta@spaflow.local","password":"Terapia123!","fullName":"Profesional Demo","roles":["Therapist"],"spaBusinessId":1,"branchId":1,"employeeId":1,"active":true},
+    {"id":"u-cashier","email":"caja@spaflow.local","password":"Caja123!","fullName":"Caja SpaFlow","roles":["Cashier"],"spaBusinessId":1,"branchId":1,"active":true}
+  ]
+}

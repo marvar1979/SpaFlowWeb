@@ -1,0 +1,20 @@
+{
+  "business": {
+    "id": 1,
+    "name": "SpaFlow Demo",
+    "legalName": "SpaFlow Demo",
+    "phone": "+591 70000000",
+    "email": "contacto@spaflow.local",
+    "address": "Av. Principal 123, Cochabamba",
+    "currency": "BOB",
+    "timeZoneId": "America/La_Paz",
+    "isActive": true
+  },
+  "branches": [
+    {"id":1,"spaBusinessId":1,"name":"Sucursal Principal","address":"Av. Principal 123, Cochabamba","phone":"+591 70000000","isActive":true}
+  ],
+  "rooms": [
+    {"id":1,"spaBusinessId":1,"branchId":1,"name":"Cabina 1","description":"Masajes y tratamientos corporales","capacity":1,"isActive":true},
+    {"id":2,"spaBusinessId":1,"branchId":1,"name":"Cabina 2","description":"Faciales y bienestar","capacity":1,"isActive":true}
+  ]
+}

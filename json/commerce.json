@@ -1,0 +1,14 @@
+{
+  "sales": [
+    {"id":1,"spaBusinessId":1,"branchId":1,"clientId":3,"soldAt":"$TODAY-2T18:20","subtotal":88,"discount":0,"total":88,"items":[{"id":1,"productId":3,"spaServiceId":null,"quantity":1,"unitPrice":88,"lineTotal":88}]}
+  ],
+  "payments": [
+    {"id":1,"spaBusinessId":1,"appointmentId":4,"saleId":null,"clientId":1,"method":"Qr","status":"Paid","amount":180,"reference":"QR-DEMO-001","paidAt":"$TODAY-5T16:05"},
+    {"id":2,"spaBusinessId":1,"appointmentId":5,"saleId":null,"clientId":3,"method":"Card","status":"Paid","amount":250,"reference":"POS-001","paidAt":"$TODAY-2T18:18"},
+    {"id":3,"spaBusinessId":1,"appointmentId":3,"saleId":null,"clientId":3,"method":"Cash","status":"Paid","amount":220,"reference":"","paidAt":"$TODAY+0T15:20"},
+    {"id":4,"spaBusinessId":1,"appointmentId":null,"saleId":1,"clientId":3,"method":"Cash","status":"Paid","amount":88,"reference":"","paidAt":"$TODAY-2T18:20"}
+  ],
+  "expenses": [
+    {"id":1,"spaBusinessId":1,"branchId":1,"concept":"Material de limpieza","amount":95,"expenseAt":"$TODAY-7T09:10","notes":"Compra semanal"}
+  ]
+}

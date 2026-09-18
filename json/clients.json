@@ -1,0 +1,8 @@
+{
+  "clients": [
+    {"id":1,"spaBusinessId":1,"fullName":"Cliente Demo","phone":"+591 70000002","email":"cliente.demo@example.com","birthDate":"1992-06-18","notes":"Prefiere horarios por la tarde.","allergies":"Ninguna informada","contraindications":"Ninguna informada","marketingConsent":true,"treatmentConsent":true,"loyaltyPoints":120,"lastVisitAt":"$TODAY-5T15:00","createdAt":"$TODAY-120T10:00","isActive":true},
+    {"id":2,"spaBusinessId":1,"fullName":"Andrea Flores","phone":"+591 72223333","email":"andrea@example.com","birthDate":"1988-09-05","notes":"","allergies":"Sensibilidad a fragancias fuertes","contraindications":"","marketingConsent":false,"treatmentConsent":true,"loyaltyPoints":60,"lastVisitAt":"$TODAY-15T11:00","createdAt":"$TODAY-90T09:20","isActive":true},
+    {"id":3,"spaBusinessId":1,"fullName":"María Salas","phone":"+591 74445555","email":"maria@example.com","birthDate":"1995-02-11","notes":"Cliente frecuente","allergies":"","contraindications":"","marketingConsent":true,"treatmentConsent":true,"loyaltyPoints":210,"lastVisitAt":"$TODAY-2T17:00","createdAt":"$TODAY-45T14:00","isActive":true},
+    {"id":4,"spaBusinessId":1,"fullName":"Patricia Guzmán","phone":"+591 76667777","email":"patricia@example.com","birthDate":"1990-12-02","notes":"","allergies":"","contraindications":"Embarazo: confirmar tratamientos aplicables","marketingConsent":true,"treatmentConsent":true,"loyaltyPoints":30,"lastVisitAt":null,"createdAt":"$TODAY-8T12:30","isActive":true}
+  ]
+}

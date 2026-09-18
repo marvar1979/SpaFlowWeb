@@ -1,0 +1,13 @@
+{
+  "categories": [
+    {"id":1,"spaBusinessId":1,"name":"Masajes","displayOrder":1,"isActive":true},
+    {"id":2,"spaBusinessId":1,"name":"Faciales","displayOrder":2,"isActive":true},
+    {"id":3,"spaBusinessId":1,"name":"Corporales","displayOrder":3,"isActive":true},
+    {"id":4,"spaBusinessId":1,"name":"Manicure y Pedicure","displayOrder":4,"isActive":true}
+  ],
+  "services": [
+    {"id":1,"spaBusinessId":1,"serviceCategoryId":1,"name":"Masaje relajante","description":"Masaje de relajación de cuerpo completo.","durationMinutes":60,"price":180,"requiresRoom":true,"defaultCommissionPercent":10,"isActive":true},
+    {"id":2,"spaBusinessId":1,"serviceCategoryId":1,"name":"Masaje descontracturante","description":"Tratamiento manual enfocado en tensión muscular.","durationMinutes":60,"price":220,"requiresRoom":true,"defaultCommissionPercent":10,"isActive":true},
+    {"id":3,"spaBusinessId":1,"serviceCategoryId":2,"name":"Limpieza facial","description":"Limpieza facial profunda y cuidado básico.","durationMinutes":75,"price":250,"requiresRoom":true,"defaultCommissionPercent":10,"isActive":true}
+  ]
+}

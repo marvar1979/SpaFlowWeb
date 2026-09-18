@@ -1,0 +1,31 @@
+SPAFLOW — CREDENCIALES DE DEMOSTRACIÓN
+======================================
+
+SuperAdmin
+Correo: superadmin@spaflow.local
+Contraseña: Super123!
+
+Administrador (credencial original del proyecto)
+Correo: admin@spaflow.local
+Contraseña: ChangeMe123!
+
+Manager
+Correo: manager@spaflow.local
+Contraseña: Manager123!
+
+Recepción
+Correo: recepcion@spaflow.local
+Contraseña: Recep123!
+
+Terapeuta / Profesional
+Correo: terapeuta@spaflow.local
+Contraseña: Terapia123!
+
+Caja
+Correo: caja@spaflow.local
+Contraseña: Caja123!
+
+IMPORTANTE
+---------
+Estas cuentas son únicamente para demostración. En esta conversión estática las credenciales
+están disponibles en el código del navegador y NO constituyen autenticación segura de producción.

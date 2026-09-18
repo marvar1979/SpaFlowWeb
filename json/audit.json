@@ -1,0 +1,5 @@
+{
+  "auditLogs": [
+    {"id":1,"spaBusinessId":1,"userId":"u-admin","action":"Seed","entityName":"System","entityId":"1","details":"Datos demostrativos inicializados.","ipAddress":"local","createdAt":"$TODAY-30T09:00"}
+  ]
+}

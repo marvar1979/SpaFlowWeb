@@ -1,0 +1,15 @@
+{
+  "productCategories": [
+    {"id":1,"spaBusinessId":1,"name":"Cuidado personal","isActive":true},
+    {"id":2,"spaBusinessId":1,"name":"Insumos de cabina","isActive":true}
+  ],
+  "products": [
+    {"id":1,"spaBusinessId":1,"productCategoryId":1,"name":"Aceite corporal","sku":"SPA-001","barcode":"7790001001","cost":35,"salePrice":65,"stock":10,"minimumStock":3,"isActive":true},
+    {"id":2,"spaBusinessId":1,"productCategoryId":2,"name":"Mascarilla facial hidratante","sku":"SPA-002","barcode":"7790001002","cost":22,"salePrice":45,"stock":2,"minimumStock":4,"isActive":true},
+    {"id":3,"spaBusinessId":1,"productCategoryId":1,"name":"Crema nutritiva","sku":"SPA-003","barcode":"7790001003","cost":48,"salePrice":88,"stock":6,"minimumStock":2,"isActive":true}
+  ],
+  "movements": [
+    {"id":1,"spaBusinessId":1,"branchId":1,"productId":1,"type":"Purchase","quantity":10,"occurredAt":"$TODAY-20T10:00","notes":"Stock inicial"},
+    {"id":2,"spaBusinessId":1,"branchId":1,"productId":2,"type":"InternalUse","quantity":-2,"occurredAt":"$TODAY-2T16:00","notes":"Uso en cabina"}
+  ]
+}

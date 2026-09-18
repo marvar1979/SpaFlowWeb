@@ -1,0 +1,11 @@
+{
+  "membershipPlans": [
+    {"id":1,"spaBusinessId":1,"name":"Bienestar Mensual","description":"Descuento en servicios durante 30 días.","durationDays":30,"price":180,"serviceDiscountPercent":10,"isActive":true}
+  ],
+  "clientMemberships": [
+    {"id":1,"spaBusinessId":1,"clientId":1,"membershipPlanId":1,"startDate":"$TODAY-10","endDate":"$TODAY+20","isActive":true}
+  ],
+  "giftCards": [
+    {"id":1,"spaBusinessId":1,"code":"SPA-GIFT-001","initialBalance":300,"currentBalance":300,"expiresOn":"$TODAY+90","assignedClientId":2,"isActive":true}
+  ]
+}
